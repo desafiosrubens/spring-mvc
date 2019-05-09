@@ -5,7 +5,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.casadocodigo.loja</groupId>
 	<artifactId>exemploSpring</artifactId>
-	<name>exemploSpring</name>
+	<name>exemploSpringMVC</name>
+	<description>exemploSpringMVC</description>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 	
