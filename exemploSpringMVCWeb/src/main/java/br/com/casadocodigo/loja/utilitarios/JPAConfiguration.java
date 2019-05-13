@@ -24,19 +24,21 @@ public class JPAConfiguration {
 	 	factoryBean.setJpaVendorAdapter(vendorAdapter);
 	 	
 	 	DriverManagerDataSource dataSource = new DriverManagerDataSource();
-	 	dataSource.setUsername("root");
-	 	dataSource.setPassword("");
-	 	dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/livrariadb");
-	 	dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+        dataSource.setUsername("root");
+        dataSource.setPassword(""); // modifique para a senha do seu banco
+        dataSource.setUrl("jdbc:mysql://localhost:3306/exemplospring");
+        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+        factoryBean.setDataSource(dataSource);
 	 	
-	 	 Properties props = new Properties();
-	 	 props.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
-	 	 props.setProperty("hibernate.show_sql", "true");
-	 	 props.setProperty("hibernate.hdm2ddl.auto", "create");
-	 	 factoryBean.setDataSource(dataSource);
-	 	 factoryBean.setJpaProperties(props);
-	 	 factoryBean.setPackagesToScan("br.com.casadocodigo.loja.model");
-		return factoryBean;
+        Properties props = new Properties();
+        props.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
+        props.setProperty("hibernate.show_sql", "true");
+        props.setProperty("hibernate.hbm2ddl.auto", "update");
+        factoryBean.setJpaProperties(props);
+
+        factoryBean.setPackagesToScan("br.com.casadocodigo.loja.model");
+
+        return factoryBean;
 	}
 	
 	@Bean

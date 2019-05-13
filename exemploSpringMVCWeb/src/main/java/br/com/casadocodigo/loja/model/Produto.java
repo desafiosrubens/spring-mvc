@@ -1,5 +1,6 @@
 package br.com.casadocodigo.loja.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -10,10 +11,13 @@ public class Produto {
 	@Id 
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
+	@Column(name="titulo", nullable=true)
 	private String titulo;
+	@Column(name="descricao", nullable=true)
     private String descricao;
-    private int paginas;
-
+	@Column(name="paginas", nullable=true)
+	private int paginas;
+   
     public String getTitulo() {
         return titulo;
     }
