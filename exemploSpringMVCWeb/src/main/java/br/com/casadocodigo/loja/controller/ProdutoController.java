@@ -13,7 +13,7 @@ public class ProdutoController {
 	private ProdutoDAO produtoDAO;
 	
 	@RequestMapping("/produtos/form")
-	public String form() {
+	public String  form() {
 		System.out.println("Entrando no formulario");
 		return "produtos/form";
 	}
