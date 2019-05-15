@@ -25,7 +25,7 @@ public class JPAConfiguration {
 	 	
 	 	DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setUsername("root");
-        dataSource.setPassword(""); // modifique para a senha do seu banco
+        dataSource.setPassword("12345678"); // modifique para a senha do seu banco
         dataSource.setUrl("jdbc:mysql://localhost:3306/exemplospring");
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         factoryBean.setDataSource(dataSource);
