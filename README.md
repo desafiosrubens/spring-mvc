@@ -2,6 +2,14 @@
 
 Esse README documenta quais são as etapas necessárias para que esta aplicação seja executada, corretamente em um ambiente de programação linux, usando como SO-<Linux-Ubuntu> com Mysql rodando em um contatiner Docker.
 
+Table of Contents 
+* Item 1
+* Item 2
+  * Item 2a
+    * Item 3b
+    * Item 3b
+
+
 ### Para que serve esse repositório? ###
 
 * Sumario rápido
@@ -33,4 +41,6 @@ Quero agradecer os Alunos -> Carlos Kafka e Luiz Davi
 ### Licença ###
 Este projeto é criado por Rubens Leme e lançado no domínio público. Sinta-se livre para usar e adaptar como quiser. Para entrar em contato, acesse-me no Skype ou no e-mail.
  e-mail:rubenss.leme@gmail.com
-  skype:rubens.leme@uol.com.br
+ skype:rubens.leme@uol.com.br
+ 
+Exemplo:[Markdown](https://guides.github.com/features/mastering-markdown/)
