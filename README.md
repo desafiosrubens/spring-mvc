@@ -1,7 +1,6 @@
-# Projeto mintdev - Ambiente de Desenvolvimento Linux Mint#
+# Projeto linuxdev - Ambiente de Desenvolvimento Linux Ubuntu - Spring MVC com Mysql#
 
-Esse README documenta quais são as etapas necessárias para que suas aplicações sejam executadas, corretamente em um ambiente de programação linux, usando como SO-<Linux-Mint>.
-
+Esse README documenta quais são as etapas necessárias para que esta aplicação seja executada, corretamente em um ambiente de programação linux, usando como SO-<Linux-Ubuntu> com Mysql rodando em um contatiner Docker.
 
 ### Para que serve esse repositório? ###
 
